@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/peteanderson80/bringmeaspoon-v2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Matterport3D Simulator
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The Matterport3D Simulator supports development of AI agents that interact with real 3D environments using visual information (RGB-D images). It is primarily intended for research in deep reinforcement learning, at the intersection of computer vision, natural language processing and robotics.
 
-### Markdown
+## Room-to-Room (R2R) Navigation Dataset
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Download
 
-- Bulleted
-- List
+The Matterport3D Simulator and the Room-to-Room dataset are available on [GitHub](https://github.com/peteanderson80/Matterport3DSimulator).
 
-1. Numbered
-2. List
+## Paper
 
-**Bold** and _Italic_ and `Code` text
+If you use the simulator or dataset, please cite our [paper](https://arxiv.org/pdf/1711.07280){:target="_blank"}:
 
-[Link](url) and ![Image](src)
+[![Paper](1711.07280v2.jpg)](https://arxiv.org/pdf/1711.07280){:target="_blank"}
+
+```
+@article{mattersim,
+  title={Vision-and-Language Navigation: Interpreting visually-grounded navigation instructions in real environments},
+  author={Peter Anderson and Qi Wu and Damien Teney and Jake Bruce and Mark Johnson and Niko Sünderhauf and Ian Reid and Stephen Gould and Anton van den Hengel},
+  journal={arXiv preprint arXiv:1711.07280},
+  year={2017}
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Team
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/peteanderson80/bringmeaspoon-v2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+## Future Work
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+To drive research in new and more challenging directions, we plan to release several related datasets at the intersection of computer vision, natural language processing and robotics.
+
+{% include signup.html %}
+
+## Acknowledgements
+
+We would like to thank [Matterport](https://matterport.com/) for allowing the Matterport3D dataset to be used by the academic community. This project is supported by a [Facebook ParlAI Research Award](https://research.fb.com/announcing-the-winners-of-the-facebook-parlai-research-awards/), and by the [Australian Centre for Robotic Vision](https://www.roboticvision.org/).
+
+{% include acrv-logo.html %}
+
