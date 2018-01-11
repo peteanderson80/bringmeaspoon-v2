@@ -1,3 +1,11 @@
 theme: jekyll-theme-cayman
-title: "Natural language interaction with robots"
-description: "I can ask a 5 year old to bring me a spoon, and it's likely that a spoon will appear.  We want a robot to do the same."
+title: "Bring Me A Spoon"
+description: "Matterport3D Simulator and Room-to-Room (R2R) data for Vision-and-Language Navigation"
+google_analytics: UA-62280059-2
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md

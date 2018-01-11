@@ -1,11 +1,13 @@
 
+## Room-to-Room (R2R) Navigation
+
+{% include demo.html %}
+
+R2R is the first benchmark dataset for visually-grounded natural language navigation in real buildings. The dataset requires autonomous agents to follow human-generated navigation instructions in previously unseen buildings, as illustrated in the demo above. For training, each instruction is associated with a Matterport3D Simulator trajectory. 22k instructions are available, with an average length of 29 words. We are currently setting up a test evaluation server for this dataset.
+
 ## Matterport3D Simulator
 
-The Matterport3D Simulator supports development of AI agents that interact with real 3D environments using visual information (RGB-D images). It is primarily intended for research in deep reinforcement learning, at the intersection of computer vision, natural language processing and robotics.
-
-## Room-to-Room (R2R) Navigation Dataset
-
-
+The Matterport3D Simulator enables the development of AI agents that interact with real 3D environments using visual information (RGB-D images). It is primarily intended for research in deep reinforcement learning, at the intersection of computer vision, natural language processing and robotics. Visual imagery for the simulator comes from the [Matterport3D dataset](https://niessner.github.io/Matterport/), containing comprehensive panoramic imagery and other data from 90 large-scale buildings.
 
 ## Download
 
@@ -15,7 +17,7 @@ The Matterport3D Simulator and the Room-to-Room dataset are available on [GitHub
 
 If you use the simulator or dataset, please cite our [paper](https://arxiv.org/pdf/1711.07280){:target="_blank"}:
 
-[![Paper](1711.07280v2.jpg)](https://arxiv.org/pdf/1711.07280){:target="_blank"}
+[![Paper](assets/1711.07280v2.jpg)](https://arxiv.org/pdf/1711.07280){:target="_blank"}
 
 ```
 @article{mattersim,
@@ -25,10 +27,11 @@ If you use the simulator or dataset, please cite our [paper](https://arxiv.org/p
   year={2017}
 }
 ```
+This work was presented at the [NIPS 2017 Visually-Grounded Interaction and Language (ViGIL) workshop](https://nips2017vigil.github.io/). 
 
 ## Team
 
-
+{% include people.html %}
 
 ## Future Work
 
