@@ -29,7 +29,7 @@ If you use the simulator or dataset, please cite our [paper](https://arxiv.org/p
 ```
 This work was presented at the [NIPS 2017 Visually-Grounded Interaction and Language (ViGIL) workshop](https://nips2017vigil.github.io/). 
 
-## Team
+## People
 
 {% include people.html %}
 
