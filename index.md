@@ -7,27 +7,22 @@ R2R is the first benchmark dataset for visually-grounded natural language naviga
 
 ## Matterport3D Simulator
 
-The Matterport3D Simulator enables the development of AI agents that interact with real 3D environments using visual information (RGB-D images). It is primarily intended for research in deep reinforcement learning, at the intersection of computer vision, natural language processing and robotics. Visual imagery for the simulator comes from the [Matterport3D dataset](https://niessner.github.io/Matterport/), containing comprehensive panoramic imagery and other data from 90 large-scale buildings.
+The Matterport3D Simulator enables the development of AI agents that interact with real 3D environments using visual information (RGB-D images). It is primarily intended for research in deep reinforcement learning, at the intersection of computer vision, natural language processing and robotics. Visual imagery for the simulator comes from the [Matterport3D dataset](https://niessner.github.io/Matterport/), containing comprehensive panoramic imagery and other data from 90 large-scale buildings. The Matterport3D Simulator is available on [GitHub](https://github.com/peteanderson80/Matterport3DSimulator).
 
-## Download
+## CVPR Paper
 
-The Matterport3D Simulator and the Room-to-Room dataset are available on [GitHub](https://github.com/peteanderson80/Matterport3DSimulator).
-
-## Paper
-
-If you use the simulator or dataset, please cite our [paper](https://arxiv.org/pdf/1711.07280){:target="_blank"}:
+This work has been selected for a **spotlight oral presentation** at [CVPR 2018](http://cvpr2018.thecvf.com/). Initial results were also presented at the [NIPS 2017 ViGIL workshop](https://nips2017vigil.github.io/). If you use the simulator or dataset, please cite our [paper](https://arxiv.org/pdf/1711.07280){:target="_blank"}:
 
 [![Paper](assets/1711.07280v2.jpg)](https://arxiv.org/pdf/1711.07280){:target="_blank"}
 
 ```
-@article{mattersim,
+@inproceedings{mattersim,
   title={Vision-and-Language Navigation: Interpreting visually-grounded navigation instructions in real environments},
   author={Peter Anderson and Qi Wu and Damien Teney and Jake Bruce and Mark Johnson and Niko S{\"u}nderhauf and Ian Reid and Stephen Gould and Anton van den Hengel},
-  journal={arXiv preprint arXiv:1711.07280},
-  year={2017}
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2018}
 }
-```
-This work was presented at the [NIPS 2017 Visually-Grounded Interaction and Language (ViGIL) workshop](https://nips2017vigil.github.io/). 
+``` 
 
 ## People
 
