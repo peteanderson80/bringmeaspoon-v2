@@ -11,7 +11,7 @@ The Matterport3D Simulator enables the development of AI agents that interact wi
 
 ## CVPR Paper
 
-This work has been selected for a **spotlight oral presentation** at [CVPR 2018](http://cvpr2018.thecvf.com/). Initial results were also presented at the [NIPS 2017 ViGIL workshop](https://nips2017vigil.github.io/). If you use the simulator or dataset, please cite our [paper](https://arxiv.org/pdf/1711.07280){:target="_blank"}:
+This work has been selected for a **spotlight oral presentation** at [CVPR 2018](http://cvpr2018.thecvf.com/). Initial results were also presented at the [NIPS 2017 ViGIL workshop](https://nips2017vigil.github.io/). If you use the Matterport3D simulator or the R2R dataset, please cite our [paper](https://arxiv.org/pdf/1711.07280){:target="_blank"}:
 
 [![Paper](assets/1711.07280v2.jpg)](https://arxiv.org/pdf/1711.07280){:target="_blank"}
 
@@ -21,6 +21,17 @@ This work has been selected for a **spotlight oral presentation** at [CVPR 2018]
   author={Peter Anderson and Qi Wu and Damien Teney and Jake Bruce and Mark Johnson and Niko S{\"u}nderhauf and Ian Reid and Stephen Gould and Anton van den Hengel},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2018}
+}
+``` 
+
+We also ask that you acknowledge the underlying Matterport3D dataset by also citing their paper:
+
+```
+@article{Matterport3D,
+  title={Matterport3D: Learning from {RGB-D} Data in Indoor Environments},
+  author={Chang, Angel and Dai, Angela and Funkhouser, Thomas and Halber, Maciej and Niessner, Matthias and Savva, Manolis and Song, Shuran and Zeng, Andy and Zhang, Yinda},
+  journal={International Conference on 3D Vision (3DV)},
+  year={2017}
 }
 ``` 
 
