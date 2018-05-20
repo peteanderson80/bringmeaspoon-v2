@@ -1,9 +1,13 @@
 
+<p><span style="color: #ee5f5b; font-weight: bold;">NEW!</span> Our Vision-and-Language Navigation <a href="https://evalai.cloudcv.org/web/challenges/challenge-page/97/overview">test server and leaderboard</a> is up on EvalAI.</p>
+
 ## Room-to-Room (R2R) Navigation
 
 {% include demo.html %}
 
-R2R is the first benchmark dataset for visually-grounded natural language navigation in real buildings. The dataset requires autonomous agents to follow human-generated navigation instructions in previously unseen buildings, as illustrated in the demo above. For training, each instruction is associated with a Matterport3D Simulator trajectory. 22k instructions are available, with an average length of 29 words. We are currently setting up a test evaluation server for this dataset.
+R2R is the first benchmark dataset for visually-grounded natural language navigation in real buildings. The dataset requires autonomous agents to follow human-generated navigation instructions in previously unseen buildings, as illustrated in the demo above. For training, each instruction is associated with a Matterport3D Simulator trajectory. 22k instructions are available, with an average length of 29 words. There is a **test evaluation server** for this dataset available at [EvalAI](https://evalai.cloudcv.org/web/challenges/challenge-page/97/overview). 
+
+We are currently setting up a test evaluation server for this dataset.
 
 ## Matterport3D Simulator
 
